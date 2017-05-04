@@ -1,0 +1,27 @@
+{
+  "name": "metalsmith-showdown",
+  "version": "1.0.0",
+  "description": "A Metalsmith plugin for converting markdown using the showdown library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan North",
+  "license": "MIT",
+  "dependencies": {
+    "showdown": "^1.6.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlansCodeLog/metalsmith-showdown.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/AlansCodeLog/metalsmith-showdown/issues"
+  },
+  "homepage": "https://github.com/AlansCodeLog/metalsmith-showdown#readme"
+}
