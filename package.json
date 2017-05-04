@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-showdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Metalsmith plugin for converting markdown using the showdown library.",
   "main": "index.js",
   "scripts": {
