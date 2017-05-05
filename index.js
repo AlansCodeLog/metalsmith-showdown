@@ -27,3 +27,8 @@ function plugin(opts){
     done()
   }
 }
+
+function parser(opts) {
+  return new showdown.Converter(opts)
+}
+plugin.expose = showdown
