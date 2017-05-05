@@ -42,3 +42,18 @@ Pass options to showdown.
   },
 }))
 ```
+
+## Inline Use
+
+You can access showdown directly by using `showdown.expose`.
+For example to create a new converter:
+
+```javascript
+var metalsmith = require('metalsmith');
+var showdown = require('showdown');
+var md = new showdown.expose.Converter({/*options*/})
+
+//then later
+var str = md.makeHtml(str)
+
+```
